@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio de Narimane</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Bonjour, je suis Narimane 🎀</h1>
+      <p>Étudiant en deuxième année de licence en informatique à l’Université Oran 1, je suis passionné par le développement web et la création d’expériences numériques interactives. Curieux et motivé, je cherche à approfondir mes compétences en conception front-end et en technologies web modernes.
+
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="competences">
+      <h2>Mes compétences</h2>
+      <ul>
+        <li><strong>HTML/CSS :</strong> création de sites responsives</li>
+        <li><strong>JavaScript :</strong> dynamisation de contenu web</li>
+        <li><strong>Git :</strong> gestion de versions avec GitHub</li>
+        <li><strong>UI Design :</strong> bases de Figma</li>
+      </ul>
+    </section>
+
+    <section id="projets">
+      <h2>Projets réalisés</h2>
+
+      <div class="card">
+        <h3>Blog personnel</h3>
+        <p>Un blog statique réalisé en HTML/CSS pour partager mes centres d’intérêt.</p>
+        <p class="tech">Technos : HTML, CSS</p>
+        <button onclick="toggleDetails(this)">En savoir plus</button>
+        <div class="details">
+          <p>J’ai structuré le contenu en sections et utilisé Flexbox pour organiser la mise en page.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Mini-app de tâches</h3>
+        <p>Une application qui permet d’ajouter et de supprimer des tâches simplement.</p>
+        <p class="tech">Technos : HTML, CSS, JS</p>
+        <button onclick="toggleDetails(this)">En savoir plus</button>
+        <div class="details">
+          <p>Utilisation du LocalStorage et de DOM JS pour l’interaction.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>📫 Retrouvez-moi sur <a href="https://github.com" target="_blank">GitHub</a> ou <a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
